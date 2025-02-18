@@ -429,7 +429,7 @@
                     "selected": false,
                     "extras": {
                         "type": "library_component",
-                        "path": "xai_components/xai_gcalender/gcalendar_components.py",
+                        "path": "xai_components/xai_gcalendar/gcalendar_components.py",
                         "description": "A component that handles authentication for the Google Calendar API.\n\n## Inputs\n- `service_account_json` (str): Path to the service account JSON file. If not provided or invalid,\n  the component will attempt to read credentials from the `GOOGLE_SERVICE_ACCOUNT_CREDENTIALS` environment variable.\n- `impersonate_user_account` (str, optional): The email address of the user to impersonate. If provided,\n  the service account credentials will delegate access to this user account.\n\n## Outputs\n- Adds `service` (the authenticated Google Calendar service object) to the context for further use by other components.",
                         "lineNo": [
                             {
@@ -530,7 +530,7 @@
                     "selected": false,
                     "extras": {
                         "type": "library_component",
-                        "path": "xai_components/xai_gcalender/gcalendar_components.py",
+                        "path": "xai_components/xai_gcalendar/gcalendar_components.py",
                         "description": "A component that creates a new event in a Google Calendar.\n\n## Inputs\n- `summary` (str): The event summary or title (compulsory).\n- `description` (str, optional): A description for the event.\n- `start_time` (str): The start time of the event in ISO format (compulsory).\n- `end_time` (str): The end time of the event in ISO format (compulsory).\n- `location` (str, optional): The location of the event.\n- `participants` (list, optional): A list of participant email addresses.\n- `calendar_id` (str): The ID of the Google Calendar where the event will be created.\n\n## Outputs\n- `event_id` (str): The ID of the created event.",
                         "lineNo": [
                             {
